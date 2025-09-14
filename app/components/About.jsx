@@ -13,7 +13,7 @@ export default function About() {
               <div className="rounded-2xl overflow-hidden shadow-2xl">
                 <img 
                   src="/HamadaPhoto.jpg" 
-                  alt="مبيض محارة محترف" 
+                  alt="المقاول حماده صبري" 
                   className="w-full h-auto transform hover:scale-105 transition duration-700"
                 />
               </div>
@@ -26,13 +26,12 @@ export default function About() {
             {/* المحتوى */}
             <div className="text-right">
               <h3 className="text-2xl md:text-3xl font-bold text-amber-900 mb-6">
-                محترف في <span className="text-amber-600">أعمال المحارة والتبييض</span>
+                مقاول و صحاب <span className="text-amber-600">أعمال في التشطيبات والبناء</span>
               </h3>
               
-              <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              أنا حرفي متخصص في أعمال المحارة والتبييض بأكثر من 10 سنوات من الخبرة في تشطيب الجدران، أعمال المحارة، والديكور. 
-              missionي هو تقديم عمل عالي الجودة يعزز جمال أي منزل أو مبنى، مع الالتزام بأعلى معايير الدقة والاتقان.
-              </p>
+              <p className="text-lg text-gray-700 leading-relaxed mb-6">أنا صاحب الخبرة والتميز في مجال المحارة والتبييض، عندي أكثر من 15 سنين خبرة عملية ميدانية في تشطيب الجدران وأعمال المحارة والديكور.
+رسالتي هي تقديم أعمال على أعلى مستوى من الجودة والدقة، علشان أضيف لمسة جمال واستايل فاخر لأي منزل أو عقار،
+وده علشان أضمن لعملائيا أفضل نتيجة وأحسن تقييم في سوق التشطيبات والديكور."</p>
               
               <div className="space-y-4 mb-8">
                 <div className="flex items-center justify-end">
@@ -77,7 +76,7 @@ export default function About() {
           {/* إحصائيات للأجهزة الصغيرة */}
           <div className="grid grid-cols-3 gap-4 mt-12 md:hidden">
             <div className="bg-amber-100 p-4 rounded-xl text-center">
-              <div className="text-2xl font-bold text-amber-700">10+</div>
+              <div className="text-2xl font-bold text-amber-700">15+</div>
               <div className="text-sm text-amber-600">سنوات خبرة</div>
             </div>
             <div className="bg-amber-100 p-4 rounded-xl text-center">

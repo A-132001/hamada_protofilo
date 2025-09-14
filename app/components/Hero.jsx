@@ -4,7 +4,7 @@ export default function Hero() {
         <div className="container mx-auto px-4 md:px-8">
           <div className="max-w-2xl bg-gradient-to-r from-amber-800/90 to-amber-900/90 p-8 md:p-12 rounded-2xl shadow-2xl border-l-4 border-amber-400">
             <h1 className="text-3xl md:text-5xl font-bold mb-6 text-white text-right">
-              <span className="block mb-2">أعمال محارة</span>
+              <span className="block mb-2">أعمال التشطيبات</span>
               <span className="text-amber-300">بجودة فائقة ودقة متناهية</span>
             </h1>
             
@@ -14,10 +14,10 @@ export default function Hero() {
             
             <div className="flex flex-col sm:flex-row gap-4 justify-end">
               <a href="#contact" className="px-8 py-4 bg-amber-500 hover:bg-amber-600 rounded-xl text-white font-semibold text-lg shadow-lg transition duration-300 transform hover:scale-105 text-center">
-                اتصل بنا الآن
+                تواصل معي
               </a>
               <a href="#gallery" className="px-8 py-4 bg-transparent border-2 border-amber-400 hover:bg-amber-400/20 rounded-xl text-white font-semibold text-lg transition duration-300 text-center">
-                اعرض أعمالنا
+                اعرض أعمالي
               </a>
             </div>
             
