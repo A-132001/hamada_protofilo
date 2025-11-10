@@ -4,8 +4,8 @@ export default function Hero() {
         <div className="container mx-auto px-4 md:px-8">
           <div className="max-w-2xl bg-gradient-to-r from-amber-800/90 to-amber-900/90 p-8 md:p-12 rounded-2xl shadow-2xl border-l-4 border-amber-400">
             <h1 className="text-3xl md:text-5xl font-bold mb-6 text-white text-right">
-              <span className="block mb-2">أعمال التشطيبات</span>
-              <span className="text-amber-300">بجودة فائقة ودقة متناهية</span>
+              <span className="block mb-2">المقاول</span>
+              <span className="text-amber-300">حماده صبري الرفاعى</span>
             </h1>
             
             <p className="mb-8 text-lg md:text-xl text-amber-100 text-right leading-relaxed">

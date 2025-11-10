@@ -6,9 +6,9 @@ export default function Footer() {
             
             {/* معلومات الشركة */}
             <div className="text-right">
-              <h3 className="text-xl font-bold mb-6 text-amber-300">أعمال المحارة والبناء</h3>
+              <h3 className="text-xl font-bold mb-6 text-amber-300">أعمال اللياسة والتشطيبات</h3>
               <p className="mb-4 text-amber-100">
-                نقدم خدمات المحارة والتبييض بأعلى معايير الجودة والدقة، مع الالتزام بمواعيد التسليم وأسعار مناسبة.
+                نقدم خدمات اللياسة والتشطيبات بأعلى معايير الجودة والدقة، مع الالتزام بمواعيد التسليم وأسعار مناسبة.
               </p>
               <div className="flex space-x-4 space-x-reverse justify-end md:justify-start">
                 <a href="#" className="text-amber-200 hover:text-white transition duration-300">
@@ -58,19 +58,19 @@ export default function Footer() {
               <h3 className="text-xl font-bold mb-6 text-amber-300">تواصل معنا</h3>
               <div className="space-y-4">
                 <div className="flex items-center justify-end">
-                  <span className="mr-3 text-amber-100">+20 123 456 789</span>
+                  <span className="mr-3 text-amber-100">+9660509798965</span>
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-amber-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                   </svg>
                 </div>
                 <div className="flex items-center justify-end">
-                  <span className="mr-3 text-amber-100">plasterer@example.com</span>
+                  <span className="mr-3 text-amber-100">abdelrahmansabry53@gmail.com</span>
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-amber-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
                 </div>
                 <div className="flex items-center justify-end">
-                  <span className="mr-3 text-amber-100">القاهرة، مصر</span>
+                  <span className="mr-3 text-amber-100">المملكةالسعودية - جدة</span>
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-amber-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -83,10 +83,10 @@ export default function Footer() {
           {/* حقوق النشر */}
           <div className="border-t border-amber-700 mt-10 pt-6 text-center">
             <p className="text-amber-200">
-              © {new Date().getFullYear()} أعمال المحارة والبناء. جميع الحقوق محفوظة.
+              © {new Date().getFullYear()} أعمال اللياسة والتشطيبات. جميع الحقوق محفوظة.
             </p>
             <p className="text-amber-200 text-sm mt-2">
-              صمم بعشق ❤️ لخدمة أعمال البناء والتشطيبات
+              صمم بعشق ❤️ لخدمة أعمال اللياسة والتشطيبات
             </p>
           </div>
         </div>

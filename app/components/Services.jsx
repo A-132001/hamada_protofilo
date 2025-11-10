@@ -1,37 +1,31 @@
 const services = [
     { 
       title: "تبييض وتشطيب الجدران", 
-      img: "/service1.jpg",
+      img: "/لياسه.jpg",
       description: "خدمات تبييض وتشطيب الجدران الداخلية والخارجية بأعلى معايير الجودة، باستخدام أحدث التقنيات وأجود المواد.",
       icon: "🏗️"
     },
     { 
-      title: "تشطيب الأسقف والنواصي", 
-      img: "/service2.jpg",
+      title: "تشطيب الواجهات والنواصي", 
+      img: "/واجهه.webp",
       description: "تشطيب متقن للأسقف والنواصي مع الاهتمام بأدق التفاصيل لتحقيق نتائج مميزة تدوم طويلاً.",
       icon: "🔨"
     },
     { 
       title: "تشطيبات وديكورات جبسية", 
-      img: "/service3.jpg",
+      img: "/ديكور.jfif",
       description: "تصميم وتنفيذ تشطيبات وديكورات جبسية مبتكرة تضفي لمسة جمالية فريدة على مساحتك.",
       icon: "🎨"
     },
     { 
       title: "ترميم الشقوق والعيوب", 
-      img: "/service4.jpg",
+      img: "/شقوق.png",
       description: "خدمات متخصصة في ترميم الشقوق والعيوب في الجدران والأسقف مع ضمان متانة ودقة الترميم.",
       icon: "🔧"
     },
     { 
-      title: "عزل الأسطح والجدران", 
-      img: "/service5.jpg",
-      description: "خدمات عزل للأسطح والجدران ضد الرطوبة والعوامل الجوية لضمان حماية طويلة الأمد.",
-      icon: "🛡️"
-    },
-    { 
       title: "استشارات فنية مجانية", 
-      img: "/service6.jpg",
+      img: "/استشاره.jpeg",
       description: "تقديم استشارات فنية مجانية لتحديد أفضل الحلول والمواد المناسبة لاحتياجاتك وميزانيتك.",
       icon: "💡"
     },
@@ -42,9 +36,9 @@ const services = [
       <section id="services" className="py-16 md:py-24 bg-gradient-to-b from-white to-amber-50">
         <div className="container mx-auto px-4 md:px-8">
           <div className="text-center mb-12 md:mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-amber-800 mb-4">خدماتنا</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-amber-800 mb-4">خدماتي</h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              نقدم مجموعة متكاملة من خدمات المحارة والتبييض بأعلى معايير الجودة والدقة
+              اقدم مع فريق عمل صاحب خبرة ممتازه و  كفاءة عاليه مجموعة متكاملة من خدمات اللياسه التشطيب بأعلى معايير الجودة والدقة
             </p>
             <div className="w-20 h-1 bg-amber-500 mx-auto mt-4"></div>
           </div>
