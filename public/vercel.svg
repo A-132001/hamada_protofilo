@@ -1,1 +1,98 @@
-<svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1155 1000"><path d="m577.3 0 577.4 1000H0z" fill="#fff"/></svg>
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="900" viewBox="0 0 1800 900" role="img" aria-label="Logo for أبو حمزه — tile and marble contractor" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!-- Palette (A: Sand & Stone)
+       #E7D6B7 (light sand)
+       #C9B091 (beige)
+       #8B6E48 (brown)
+       #333333 (dark gray)
+  -->
+  <defs>
+    <!-- subtle marble veins as a pattern (used with low opacity) -->
+    <linearGradient id="veinGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.12"></stop>
+      <stop offset="1" stop-color="#E7D6B7" stop-opacity="0.02"></stop>
+    </linearGradient>
+
+    <!-- geometric tile motif: diamond made of four tiles -->
+    <g id="tileUnit">
+      <rect x="-60" y="-60" width="120" height="120" rx="6" ry="6" fill="#E7D6B7"></rect>
+      <rect x="-60" y="-60" width="60" height="60" rx="4" ry="4" fill="#C9B091"></rect>
+      <rect x="0" y="0" width="60" height="60" rx="4" ry="4" fill="#8B6E48"></rect>
+      <rect x="-60" y="0" width="60" height="60" rx="4" ry="4" fill="#C9B091"></rect>
+      <rect x="0" y="-60" width="60" height="60" rx="4" ry="4" fill="#E7D6B7"></rect>
+      <!-- thin grout lines -->
+      <path d="M -60 0 L 60 0 M 0 -60 L 0 60" stroke="#333333" stroke-opacity="0.12" stroke-width="2" stroke-linecap="round"></path>
+    </g>
+
+    <!-- subtle marble texture path (reusable) -->
+    <path id="marbleVein" d="M10,120 C120,40 260,200 380,120 C480,60 560,220 720,140" stroke="#ffffff" stroke-opacity="0.10" stroke-width="14" fill="none" stroke-linecap="round" stroke-linejoin="round"></path>
+  </defs>
+
+  <!-- Transparent background intentionally left out (no rect fill) -->
+
+  <!-- LEFT: decorative tile cluster (detailed, careful arrangement) -->
+  <g id="tileCluster" transform="translate(260,230) rotate(-18)">
+    <!-- layered tiles to convey craftsmanship -->
+    <use xlink:href="#tileUnit" transform="translate(0,0) scale(0.95)"></use>
+    <use xlink:href="#tileUnit" transform="translate(120,-40) scale(0.95)"></use>
+    <use xlink:href="#tileUnit" transform="translate(240,40) scale(0.95)"></use>
+    <use xlink:href="#tileUnit" transform="translate(360,-10) scale(0.95)"></use>
+    <use xlink:href="#tileUnit" transform="translate(480,40) scale(0.95)"></use>
+    <!-- small accent tile to form monogram-like hint -->
+    <g transform="translate(190,80) rotate(22) scale(0.72)">
+      <rect x="-46" y="-46" width="92" height="92" rx="12" ry="12" fill="#8B6E48"></rect>
+      <rect x="-46" y="-46" width="46" height="46" rx="8" ry="8" fill="#E7D6B7"></rect>
+      <path d="M -46 0 L 46 0" stroke="#333333" stroke-opacity="0.14" stroke-width="3"></path>
+    </g>
+
+    <!-- subtle marble veins overlay -->
+    <use xlink:href="#marbleVein" transform="translate(-60,20) scale(1.4)"></use>
+    <use xlink:href="#marbleVein" transform="translate(40,100) scale(0.9) rotate(-20)"></use>
+  </g>
+
+  <!-- CENTER: clean emblem mark — stylized 'AH' (Arabic+English harmony) -->
+  <g id="emblem" transform="translate(820,320)">
+    <!-- circular badge base (no full circle stroke; trimmed to remain modern) -->
+    <path d="M -160,0 A160,160 0 1,1 160,0" fill="none" stroke="#8B6E48" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0.95"></path>
+    <!-- stylized Arabic geometric calligraphic hint for "أ" and "ح" using shapes -->
+    <g transform="translate(-30,-10) scale(1.05)">
+      <!-- Arabic calligraphic-inspired mark -->
+      <path d="M -40,30 C -20,-10 40,-6 60,18 C 58,8 52,2 42,0 C 14,-6 -10,18 -28,34 C -36,28 -42,26 -40,30 Z" fill="#8B6E48" fill-opacity="0.95"></path>
+      <!-- small tile accent dot -->
+      <rect x="64" y="-8" width="12" height="12" rx="3" ry="3" fill="#C9B091" stroke="#333333" stroke-opacity="0.12" stroke-width="1"></rect>
+      <!-- light highlight -->
+      <path d="M -26,6 C -12,0 14,-2 28,8" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="6" fill="none" stroke-linecap="round"></path>
+    </g>
+
+    <!-- English monogram 'AH' aligned to the right of calligraphic mark -->
+    <g transform="translate(140,10)">
+      <text x="0" y="0" font-family="Helvetica, 'Segoe UI', Arial" font-weight="700" font-size="88" fill="#333333" letter-spacing="2">AH</text>
+      <!-- thin baseline to ground the logotype -->
+      <rect x="-8" y="22" width="116" height="4" rx="2" fill="#C9B091" fill-opacity="0.9"></rect>
+    </g>
+
+    <!-- marble veil across emblem for a premium feel -->
+    <use xlink:href="#marbleVein" transform="translate(-140,40) scale(0.6)" opacity="0.22"></use>
+  </g>
+
+  <!-- RIGHT: logotype - Arabic + English text -->
+  <g id="logotype" transform="translate(820,540)">
+    <!-- Arabic name (prominent) -->
+    <text x="0" y="-8" font-family="'Noto Naskh Arabic', 'Arial', 'Tahoma'" font-size="78" font-weight="700" fill="#333333" direction="rtl" text-anchor="start" dominant-baseline="middle">أبو حمزه</text>
+
+    <!-- Arabic descriptor (smaller) -->
+    <text x="0" y="48" font-family="'Noto Naskh Arabic', 'Arial', 'Tahoma'" font-size="24" font-weight="500" fill="#8B6E48" direction="rtl" text-anchor="start" dominant-baseline="middle">مقاول أعمال لياثه</text>
+
+    <!-- English subtitle (small, elegant) -->
+    <text x="260" y="2" font-family="Helvetica, 'Segoe UI', Arial" font-size="20" font-weight="500" fill="#6b4f36" text-anchor="start" dominant-baseline="middle">Tile &amp; Marble Installation</text>
+  </g>
+
+  <!-- bottom badge: horizontal rule for signage applications -->
+  <g transform="translate(120,760)">
+    <rect x="0" y="-6" width="1560" height="2" fill="#333333" opacity="0.08"></rect>
+    <rect x="0" y="0" width="1560" height="1" fill="#E7D6B7" opacity="0.5"></rect>
+  </g>
+
+  <!-- Accessibility title fallback -->
+  <title>أبو حمزه — Tile &amp; Marble Contractor logo (earth tones, tile motif)</title>
+</svg>

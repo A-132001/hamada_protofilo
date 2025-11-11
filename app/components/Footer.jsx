@@ -45,7 +45,7 @@ export default function Footer() {
             <div className="text-right">
               <h3 className="text-xl font-bold mb-6 text-amber-300">خدماتنا</h3>
               <ul className="space-y-3">
-                <li><a href="#" className="text-amber-100 hover:text-white transition duration-300">أعمال المحارة والتبييض</a></li>
+                <li><a href="#" className="text-amber-100 hover:text-white transition duration-300">أعمال اللياسة والتشطيبات</a></li>
                 <li><a href="#" className="text-amber-100 hover:text-white transition duration-300">تشطيب الأسقف والنواصي</a></li>
                 <li><a href="#" className="text-amber-100 hover:text-white transition duration-300">الديكورات الجبسية</a></li>
                 <li><a href="#" className="text-amber-100 hover:text-white transition duration-300">أعمال الترميم</a></li>

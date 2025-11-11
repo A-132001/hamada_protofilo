@@ -6,29 +6,36 @@ const companies = [
       name: "تمليك المتخصصة",
       logo: "/companys/تمليك.jpg",
       facebook: "#",
-      drive: "#",
-      workPhotos: ["/استشاره.jpeg", "/ديكور.jfif", "/شقوق.png"]
+      drive: "https://drive.google.com/drive/folders/1ZUgFPY3nOyUxheCXaJomKBXJTJ68dyB8?usp=sharing",
+      workPhotos: ["/Work/تمليك1.jpeg", "/Work/تمليك2.jpeg", "/Work/تمليك3.jpeg","/Work/تمليك4.jpeg","/Work/تمليك5.jpeg","/Work/تمليك6.jpeg"]
     },
     {
       name: "جسر",
       logo: "/companys/جسر.jpg",
       facebook: "#",
-      drive: "#",
-      workPhotos: ["/لياسه.jpg", "/واجهه.webp", "/استشاره.jpeg"]
+      drive: "https://drive.google.com/drive/folders/1ZUgFPY3nOyUxheCXaJomKBXJTJ68dyB8?usp=sharing",
+      workPhotos: ["/Work/جسر1.jpeg", "/Work/جسر2.jpeg","/Work/جسر3.jpeg","/Work/جسر4.jpeg","/Work/جسر5.jpeg","/Work/جسر6.jpeg"]
     },
     {
       name: "درة العقارية",
       logo: "/companys/درة.jpg",
-      facebook: "#",
-      drive: "#",
-      workPhotos: ["/ديكور.jfif", "/شقوق.png", "/لياسه.jpg"]
+      facebook: "https://drive.google.com/drive/folders/1ZUgFPY3nOyUxheCXaJomKBXJTJ68dyB8?usp=sharing",
+      drive: "https://drive.google.com/drive/folders/1ZUgFPY3nOyUxheCXaJomKBXJTJ68dyB8?usp=sharing",
+      workPhotos: ["/واجهه.webp","/Work/درة1.jpeg","/Work/درة2.jpeg","/Work/درة3.jpeg"]
     },
     {
       name: "مساكن التمليك العقارية",
       logo: "/companys/مساكن.jpg",
       facebook: "#",
-      drive: "#",
-      workPhotos: ["/واجهه.webp", "/استشاره.jpeg", "/ديكور.jfif"]
+      drive: "https://drive.google.com/drive/folders/1ZUgFPY3nOyUxheCXaJomKBXJTJ68dyB8?usp=sharing",
+      workPhotos:  ["/Work/مساكن1.jpeg","/Work/مساكن2.jpeg","/Work/مساكن3.jpeg"]
+    },
+    {
+      name: "مجموعة البلجيكي",
+      logo: "/companys/البلجيكي.jpg",
+      facebook: "#",
+      drive: "https://drive.google.com/drive/folders/1ZUgFPY3nOyUxheCXaJomKBXJTJ68dyB8?usp=sharing",
+      workPhotos: ["/Work/بلجيكي1.jpeg","/Work/بلجيكي2.jpeg","/Work/بلجيكي3.jpeg","/Work/بلجيكي4.jpeg","/Work/بلجيكي5.jpeg"]
     }
   ];
 

@@ -5,11 +5,11 @@ export default function Hero() {
           <div className="max-w-2xl bg-gradient-to-r from-amber-800/90 to-amber-900/90 p-8 md:p-12 rounded-2xl shadow-2xl border-l-4 border-amber-400">
             <h1 className="text-3xl md:text-5xl font-bold mb-6 text-white text-right">
               <span className="block mb-2">المقاول</span>
-              <span className="text-amber-300">حماده صبري الرفاعى</span>
+              <span className="text-amber-300">أبو حمزه الرفاعى</span>
             </h1>
             
             <p className="mb-8 text-lg md:text-xl text-amber-100 text-right leading-relaxed">
-              خبرة سنوات في تشطيب الواجهات والديكورات الداخلية بأحدث التقنيات وأجود المواد. جودة لا تضاهى ودقة في التنفيذ.
+              خبرة أكثر من 15 سنة في اعمال اللياسة و تشطيب الجدران الداخلية و الخارجية والواجهات والديكورات الداخلية بأحدث التقنيات وأجود المواد. جودة لا تضاهى ودقة في التنفيذ 
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-end">

@@ -13,7 +13,7 @@ export default function About() {
               <div className="rounded-2xl overflow-hidden shadow-2xl">
                 <img 
                   src="/HamadaPhoto.jpg" 
-                  alt="المقاول حماده صبري" 
+                  alt="المقاول أبو حمزه الرفاعى " 
                   className="w-full h-auto transform hover:scale-105 transition duration-700"
                 />
               </div>
@@ -26,16 +26,16 @@ export default function About() {
             {/* المحتوى */}
             <div className="text-right">
               <h3 className="text-2xl md:text-3xl font-bold text-amber-900 mb-6">
-                مقاول و صحاب <span className="text-amber-600">أعمال في التشطيبات والبناء</span>
+                مقاول و صحاب <span className="text-amber-600">أعمال في اللياسة و التشطيبات</span>
               </h3>
               
-              <p className="text-lg text-gray-700 leading-relaxed mb-6">أنا صاحب الخبرة والتميز في مجال المحارة والتبييض، عندي أكثر من 15 سنين خبرة عملية ميدانية في تشطيب الجدران وأعمال اللياسه والديكور.
+              <p className="text-lg text-gray-700 leading-relaxed mb-6">لدي خبرة أكثر من 15 سنة في مجال اللياسة و التشطيبات و المقاولات الحرة، لدي فريق عمل ممتاز و محترف في أعمال اللياسة و تشطيب الجدران الداخلية والخارجية والديكورات.
 رسالتي هي تقديم أعمال على أعلى مستوى من الجودة والدقة، علشان أضيف لمسة جمال واستايل فاخر لأي منزل أو عقار،
 وده علشان أضمن لعملائيا أفضل نتيجة وأحسن تقييم في سوق التشطيبات والديكور."</p>
               
               <div className="space-y-4 mb-8">
                 <div className="flex items-center justify-end">
-                  <span className="ml-3 text-amber-700 font-medium">أعمال محارة داخلية وخارجية</span>
+                  <span className="ml-3 text-amber-700 font-medium">أعمال اللياسة داخلية وخارجية</span>
                   <div className="bg-amber-100 p-2 rounded-full">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-amber-600" viewBox="0 0 20 20" fill="currentColor">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />

@@ -1,8 +1,8 @@
 export default function Contact() {
     return (
-      <section id="contact" className="py-16 md:py-24 bg-gradient-to-b from-white to-amber-50">
+      <section id="contact" className="py-8 md:py-24 bg-gradient-to-b from-white to-amber-50">
         <div className="container mx-auto px-4 md:px-8">
-          <div className="text-center mb-12 md:mb-16">
+          <div className="text-center mb-8 md:mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-amber-800 mb-4">اتصل بي</h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
                جاهزون لاستفسارك في أي وقت، تواصل معي الآن للحصول على استشارة مجانية أو لطلب خدماتنا
@@ -10,12 +10,12 @@ export default function Contact() {
             <div className="w-20 h-1 bg-amber-500 mx-auto mt-4"></div>
           </div>
   
-          <div className="grid md:grid-cols-2 gap-12 max-w-4xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-6 md:gap-12 max-w-4xl mx-auto">
             {/* معلومات الاتصال */}
-            <div className="bg-white rounded-2xl shadow-lg p-8">
+            <div className="bg-white rounded-2xl shadow-lg p-4 md:p-8">
               <h3 className="text-2xl font-bold text-amber-900 mb-6 text-right">معلومات التواصل</h3>
               
-              <div className="space-y-6">
+              <div className="space-y-4 md:space-y-6">
                 <div className="flex items-start justify-end">
                   <div className="text-right ml-4">
                     <h4 className="font-semibold text-amber-800">رقم الهاتف</h4>
@@ -90,9 +90,9 @@ export default function Contact() {
             </div>
   
             {/* نموذج الاتصال */}
-            <div className="bg-white rounded-2xl shadow-lg p-8">
+            <div className="bg-white rounded-2xl shadow-lg p-4 md:p-8">
               <h3 className="text-2xl font-bold text-amber-900 mb-6 text-right">أرسل رسالة</h3>
-              <form className="space-y-5">
+              <form className="space-y-4 md:space-y-5">
                 <div>
                   <label htmlFor="name" className="block text-right text-amber-800 mb-2">الاسم بالكامل</label>
                   <input 
