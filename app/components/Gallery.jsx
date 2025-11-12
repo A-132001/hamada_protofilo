@@ -35,7 +35,7 @@ const companies = [
       logo: "/companys/البلجيكي.jpg",
       facebook: "#",
       drive: "https://drive.google.com/drive/folders/1ZUgFPY3nOyUxheCXaJomKBXJTJ68dyB8?usp=sharing",
-      workPhotos: ["/Work/بلجيكي1.jpeg","/Work/بلجيكي2.jpeg","/Work/بلجيكي3.jpeg","/Work/بلجيكي4.jpeg","/Work/بلجيكي5.jpeg"]
+      workPhotos: ["/Work/بلجيكي1.jfif","/Work/بلجيكي2.jpeg","/Work/بلجيكي3.jpeg","/Work/بلجيكي4.jpeg","/Work/بلجيكي5.jpeg"]
     }
   ];
 
@@ -58,7 +58,7 @@ const companies = [
           <div className="text-center mb-12 md:mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-amber-800 mb-4"> اخر المشاريع</h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-               اكتشف مجموعة من أحدث مشاريعنا في أعمال الياسه والديكور مع اكبر الشركات الرائدة
+               اكتشف مجموعة من أحدث مشاريعنا في أعمال اللياسة والديكور مع اكبر الشركات الرائدة
             </p>
             <div className="w-20 h-1 bg-amber-500 mx-auto mt-4"></div>
           </div>
